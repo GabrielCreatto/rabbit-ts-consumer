@@ -1,8 +1,6 @@
 import express from 'express';
 import router from './app/routes/route';
-import * as dotenv from 'dotenv';
 import { Amqp } from './app/controllers/amqp';
-dotenv.config({ path: '../.env' });
 
 const app = express();
 
